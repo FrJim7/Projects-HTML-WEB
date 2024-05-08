@@ -1,0 +1,424 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  background: #FFFFFF;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  color: #55206d;
+  margin: 0;
+  padding: 0;
+}
+
+#main {
+  max-width: 1440px;
+  background: #FFF8F0;
+  margin: 0px auto;
+}
+
+h1 {
+  font-family: "League Spartan", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 50px;
+  margin-top: 10px;
+  margin-bottom: 28px;
+  color: #190D37;
+}
+
+h2 {
+  font-family: "League Spartan", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  text-align: center;
+  margin: 0px 0px;
+  color: #000;
+}
+
+h3 {
+  font-family: "Poppis", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0px 0px;
+  color: #000;
+  text-transform: uppercase;
+}
+
+a:link {
+  color: #6A87A3;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #556b80;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #9ecbf6;
+  text-decoration: none;
+}
+
+.section-title {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.section-note {
+  color: #2858FF;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+  margin: 100px auto 8px auto;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.description-text {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-top: 8px;
+  padding: 8px 24px;
+  color: #331e6a;
+}
+
+.box {
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 6px 2px 25px -9px #0000001A;
+  margin: 0 10px;
+  padding: 20px;
+  text-align: left;
+  width: 33.3%;
+}
+
+/* HERO STYLES */
+#header {
+  display: flex;
+  max-width: 1266px;
+  margin: 0px auto 48px auto;
+  padding-left: 174px;
+}
+
+#hero-section {
+  display: flex;
+  margin: 0px auto 48px auto;
+}
+
+#hero-content {
+  width: 40%;
+  padding: 32px 20px 32px 20px;
+}
+
+#hero-contactinfo {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  color: #000;
+}
+
+#hero-greeting {
+  margin-top: 52px;
+}
+
+#hero-button {
+  height: 44px;
+  width: 132px;
+  border-radius: 4px;
+  background-color: #2f2f2f;
+  color: #FFF8F0;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  margin-top: 20px;
+}
+
+#hero-image-wrapper {
+  width: 60%;
+}
+
+#hero-image {
+  width: 100%;
+  height: 100%;
+  
+  border-bottom-left-radius: 150px;
+}
+
+/*WIDO SECTION*/
+#wido-section {
+  max-width: 1060px;
+  margin: 48px auto;
+}
+
+#wido-group {
+  display: flex;
+}
+
+#wido-description {
+  text-align: center;
+  margin: 8px auto 48px auto;
+  max-width: 700px;
+}
+
+.wido-box-text {
+  color: #55206d;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 8px;
+  text-align: center;
+}
+
+/*PROJECTS STYLES*/
+#project-section {
+  max-width: 1060px;
+  margin: 48px auto;
+}
+
+#project-description {
+  text-align: center;
+  margin: 8px auto 48px auto;
+  max-width: 700px;
+}
+
+.project-number {
+  display: flex;
+  margin: 40px 0px;
+  min-height: 160px;
+}
+
+.project-image {
+  border-radius: 10px;
+
+  margin: 0px 8px;
+  max-width: 160px;  
+  width: 15.1%;
+}
+
+#blue-logo {
+  background: #19ACFF;
+  color: #FFFFFF;
+
+}
+
+#yellow-logo {
+  background: #FFE819;
+  color: #000;
+}
+
+#red-logo {
+  background: #FF1919;
+  color: #FFFFFF;
+}
+
+.project-image-logo {
+  font-family: "Poppins", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 160px;
+
+  text-align: center;
+  text-overflow: clip;
+}
+
+.project-text {
+  padding-right: 12px;
+
+  width: 84.9%;
+}
+
+.project-text-title {
+  color: #291854;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.project-text-description {
+  color: #55206d;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 6px auto;
+}
+
+.project-text-link {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/*PRICING STYLES*/
+#pricing-section {
+  max-width: 1060px;
+  margin: 48px auto;
+}
+
+#pricing-description {
+  text-align: center;
+  margin: 8px auto 48px auto;
+  max-width: 700px;
+}
+
+#pricing-group {
+  display: flex;
+}
+
+.service {
+  color: #2858ff;
+  font-family: "Poppins",sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  text-transform: uppercase;
+}
+
+.service-price {
+  color: #000;
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 54px;
+  margin-top: 8px;
+}
+
+.service-price-span{
+  color: #8a8a8a;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.service-description {
+  color: #8b8b8b;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  margin-top: 8px;
+}
+
+.service-benefits {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.service-benefits li {
+  color: #666666;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 8px;
+}
+
+.service-contact {
+  background-color: #ffffff;
+  border: 2px solid #2f2f2f;
+  border-radius: 4px;
+
+  color: #2f2f2f;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+
+  height: 44px;
+  padding: 12px 0px;
+  width: 100%;
+}
+
+.service-contact:hover {
+ background-color: #2f2f2f;
+ color: #FFFFFF;
+ cursor: pointer;
+}
+
+/*Yellow styled box*/
+.box2 {
+  background-color: #FFD748;
+}
+
+.box2 .service {
+  color: #000;
+}
+
+.box2 li {
+  color: #000000BF;
+}
+
+.box2 .service-price-span {
+  color: #00000080;
+}
+ 
+.box2 .service-description {
+  color: #00000080;
+}
+
+.box2 .service-contact {
+  border: 2px solid #000;
+  background-color: #000;
+  color: #FFFFFF;
+}
+
+.box2 .service-contact:hover {
+  border-color: #2f2f2f;
+  background-color: #2f2f2f;
+  color: #FFFFFF;
+  cursor: pointer;
+ }
+/**********************/
+
+/*QUESTION STYLE*/
+.question-text {
+  color: #55206D;
+
+  font-family: "Poppins",sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+
+  max-width: 700px;
+  margin: 0px auto;
+}
+
+.question-details {
+  color: #6A87A3;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23px;
+
+}
+
+.details summary::marker {
+  float: right;
+ }
+
+/*FOOTER STYLE*/
+#footer-section {
+  background: #000;
+  color: #FFFFFF;
+  text-align: center;
+  font-family: "Poppis", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  margin: 0px auto;
+  margin-top: 48px;
+  max-width: 1440px;
+  padding: 20px 0px;
+  width: 100%;
+}
