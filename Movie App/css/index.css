@@ -1,0 +1,95 @@
+html {
+  background: rgb(21,20,31);
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: none;
+}
+
+hr {
+  border: 3px solid white;
+  border-radius: 5px;
+  color: white;
+  margin: 20px auto;
+  width: 90%;
+}
+
+#home-link {
+  color: white;
+  font-size: 2.5rem;
+  
+  text-decoration: none;
+}
+
+#query {
+  background-color: rgba(128, 128, 128, 0.5);
+  border-radius: 10px;
+  border-style: none;
+  box-shadow: 0 0.4rem #dfd9d90f;
+  color: white;
+  height: 40px;
+  padding: 0rem 0.75rem;
+}
+
+.card {
+  background-color: rgba(128, 128, 128, 0.2);
+  border-radius: 14px;
+  height: 100%;
+}
+
+.card:hover {
+  background-color: rgba(128, 128, 128, 0.748);
+    cursor: pointer;
+}
+
+.card-body {
+  padding: 0.5rem;
+}
+
+.card-title {
+  color: white;
+  font-size: 1.5rem;
+  padding: 0rem 0.5rem;
+}
+
+.thumbnail {
+  border-radius: 14px;
+  width: 100%;
+}
+
+.footer {
+  height: 200px;
+}
+
+#pages-section {
+  max-width: 500px;
+}
+
+.page-turner {
+  background-color: rgba(128, 128, 128, 0.14);
+  border-radius: 10px;
+  border-style: none;
+  box-shadow: 0 0.2rem #35353500;
+  color: white;
+}
+
+.page-turner-dots {
+  background-color: rgba(128, 128, 128, 0);
+  border-radius: 10px;
+  border-style: none;
+  box-shadow: none;
+  color: white;
+}
+
+.page-turner:hover, .active {
+  background-color: rgba(128, 128, 128, 0.748);
+  color: black;
+}
+
+.page-turner-dots:hover {
+  background-color: rgba(128, 128, 128, 0.748);
+  color: black;
+}
